@@ -36,7 +36,7 @@ which takes a bit time.
 
 Now you can use `pdflatex` to compile `.tex` file in the command line (remember to open a new terminal).
 
-I use [LaTexTools](https://latextools.readthedocs.io/en/latest/) to compile `.tex` files in sublime. Remember to write `%!TEX root = <master file name> ` at the beginning of every `.tex` file. After installation, change the builder to `simple`.
+I use [LaTexTools](https://latextools.readthedocs.io/en/latest/) to compile `.tex` files in sublime. Remember to write `%!TEX root = <master file name> ` at the beginning of every `.tex` file. After installation, change the builder to `simple`. Now you can use `cmd + b` to compile the `.tex` files.
 
 ### Completion
 
@@ -44,11 +44,15 @@ Install [LaTeX-cwl](https://packagecontrol.io/packages/LaTeX-cwl).
 
 ### Preview
 
-Use [Skim](https://skim-app.sourceforge.io) as the default viewer. You need modify the security system preference in order to open Skim.
+Use [Skim](https://skim-app.sourceforge.io) as the default viewer. You need modify the security system preference in order to open Skim. Remember to set
+
+```
+"keep_focus": false
+```
 
 ## Writing Python Code
 
-I use pep8 to check syntax checking
+Checkout [this file](automl_engineering_guidelines.pdf)
 
 
 ## Preview Markdown
