@@ -52,7 +52,7 @@ Use [Skim](https://skim-app.sourceforge.io) as the default viewer. You need modi
 
 ## Writing Python Code
 
-Checkout [this file](automl_engineering_guidelines.pdf)
+Checkout [this file](automl_engineering_guidelines.pdf).
 
 
 ## Preview Markdown
