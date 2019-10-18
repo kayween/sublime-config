@@ -55,6 +55,9 @@ Use [Skim](https://skim-app.sourceforge.io) as the default viewer. You need modi
 Checkout [this file](automl_engineering_guidelines.pdf).
 
 
-## Preview Markdown
+## Some Awesome Plug-ins
 
-Checkout the [MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview).
+[MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview)
+
+[Terminus]
+
