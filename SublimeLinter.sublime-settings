@@ -1,7 +1,7 @@
 // SublimeLinter Settings - User
 {
     "paths": {
-        "linux": [],
+        "linux": ["/home/kaiwen/anaconda3/bin/"],
         "osx": ["/opt/anaconda3/bin/"],
         "windows": []
     },
