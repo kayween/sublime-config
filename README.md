@@ -1,6 +1,7 @@
 # Sublime Configurations
 
-I use sublime to write codes and edit latex files. I record some configurations in this repository.
+I use sublime to write codes and edit latex files.
+I record some configurations in this repository.
 
 ## Basic Editing Settings
 
@@ -20,7 +21,7 @@ Enable spell check
 "spell_check": true
 ```
 
-## Editing Latex Files
+## Latex
 
 ### Compilation
 
@@ -42,18 +43,13 @@ I use [LaTexTools](https://latextools.readthedocs.io/en/latest/) to compile `.te
 
 Install [LaTeX-cwl](https://packagecontrol.io/packages/LaTeX-cwl).
 
-### Preview
+## Python
 
-Use [Skim](https://skim-app.sourceforge.io) as the default viewer. You need modify the security system preference in order to open Skim. Remember to set
-
-```
-"keep_focus": false
-```
-
-## Writing Python Code
-
-Checkout [this file](automl_engineering_guidelines.pdf).
-
+### Python Linter
+First, install SublimeLinter (http://www.sublimelinter.com/en/stable/) and SublimeLinter-flake8 (https://github.com/SublimeLinter/SublimeLinter-flake8) in sublime via package control.
+Next, install flake8 (https://flake8.pycqa.org/en/latest/) in the system.
+Finally, configure the path of flake8 in SublimeLinter's setting.
+The linter works automatically whenever a file is saved.
 
 ## Some Awesome Plug-ins
 
