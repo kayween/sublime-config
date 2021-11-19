@@ -9,4 +9,4 @@ You might need to *restart* sublime after the installation.
 The linter works automatically whenever a file is saved.
 
 ### Terminal in Sublime
-Install [terminus](https://packagecontrol.io/packages/Terminus) package.
+Install the [terminus](https://packagecontrol.io/packages/Terminus) package.
