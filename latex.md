@@ -7,7 +7,7 @@ A latex compiler is required.
 #### Compilation in Terminals
 
 - Linux. pdflatex is installed by default.
-- OS X. MacTex can be installed by [Homebrew](https://brew.sh) by `brew cask install mactex`.
+- OS X. MacTex can be installed by [Homebrew](https://brew.sh) using the command `brew cask install mactex`.
 
 After the installation, `pdflatex` can be used to compile `.tex` file in the terminal.
 
