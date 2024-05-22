@@ -3,11 +3,11 @@
     [
         {
             "characters": "<",
-            "selector": "text.html"
+            "selector": "text.html",
         },
         {
             "characters": "\\",
-            "selector": "text.tex.latex"
+            "selector": "text.tex.latex",
         }
     ],
     "detect_indentation": true,
@@ -16,5 +16,5 @@
     "spell_check": true,
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
-    "vintage_lines.force_mode": true
+    "vintage_lines.force_mode": true,
 }
