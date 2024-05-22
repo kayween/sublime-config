@@ -1,16 +1,9 @@
 {
-	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
-		"LaTeX-cwl",
-		"LaTeXTools",
-		"Package Control",
-		"SFTP",
-		"SublimeLinter",
-		"SublimeLinter-flake8",
-		"Terminus"
-	]
+		"Package Control"
+	],
 }

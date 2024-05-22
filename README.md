@@ -1,12 +1,29 @@
 # Sublime Configurations
 
-I use sublime to write codes and edit latex files.
-I record some configurations in this repository.
+This repository is used synchronize sublime settings and packages.
 
+## Download
+Git clone this repository and overwrite the folder `Sublime Text 3/Packages/User`.
 
-## Some Awesome Plug-ins
+## Notes 
+- [Some basic sublime settings](basic.md)
+- [Python](python.md)
+- [Latex](latex.md)
 
-[MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview)
+## Basic Editing Settings
 
-[Terminus]
+To enable vintage mode and set 'jk' key binding, follow [this](https://www.sublimetext.com/docs/3/vintage.html).
 
+Translate all tabs into 4 spaces
+
+```
+"detect_indentation": true,
+"tab_size": 4,
+"translate_tabs_to_spaces": false
+```
+
+Enable spell check
+
+```
+"spell_check": true
+```

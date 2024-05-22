@@ -2,21 +2,22 @@
 
 ### Compilation
 
-First, a latex compiler is required.
-On Linux, pdflatex is installed by default.
-On OS X, I usually install MacTex.
+A latex compiler is required.
 
-Before installing MacTex, install [Homebrew](https://brew.sh) first.
-After that, run
-```
-brew cask install mactex
-```
-which takes a bit time.
+#### Compilation in Terminals
 
-Now you can use `pdflatex` to compile `.tex` file in the command line (remember to open a new terminal).
+- Linux. pdflatex is installed by default.
+- OS X. MacTex can be installed by [Homebrew](https://brew.sh) using the command `brew cask install mactex`.
 
-I use [LaTexTools](https://latextools.readthedocs.io/en/latest/) to compile `.tex` files in sublime. Remember to write `%!TEX root = <master file name> ` at the beginning of every `.tex` file.
-After installation, change the builder to `simple`. Now you can use `cmd + b` to compile the `.tex` files.
+After the installation, `pdflatex` can be used to compile `.tex` file in the terminal.
+
+#### Compilation in Sublime
+
+Install [LaTexTools](https://latextools.readthedocs.io/en/latest/).
+After the installation, change the builder to `simple`.
+Use `cmd + b` to compile `.tex` files.
+
+Remember to write `%!TEX root = <master file name> ` at the beginning of every `.tex` file.
 
 ### Completion
 
