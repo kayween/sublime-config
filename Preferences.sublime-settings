@@ -12,9 +12,11 @@
     ],
     "detect_indentation": true,
     "font_size": 14,
-    "ignored_packages": [],
+    "ignored_packages": [
+    ],
     "spell_check": true,
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
     "vintage_lines.force_mode": true,
+    "index_files": true,
 }
